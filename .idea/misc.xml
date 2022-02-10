@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/bottom_corner.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/button_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/content_back.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_about_us.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_download_button.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_drop_down_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_education.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_education_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_funtional.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_instagram.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_left_and_right_arrows.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_left_arrows.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_location.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_msg_notification.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_notifications.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_organization.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_professional.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_search_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_share_sh.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_summery.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_time.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_twitter.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_whatsapp.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_youtube.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/rectangle_btn.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/rounded_btn.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/tab_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/tab_background_selected.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/tab_background_unselected.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_job_details_table.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/custom_notification.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_job_categoty.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_new_job.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_search_job.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_your_job.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/item_data.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/job_list_item.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/layout_navigation.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/most_popu_categoty_item.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/new_job_item.xml" value="0.19322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    tools:context=".Fragment.SearchJobFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Enter Your search criteria"
+                android:textColor="@color/text_green_clr"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundColor="@color/white"
+                android:hint="Keyword...">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:drawableStart="@drawable/ic_search_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="@color/text_green_clr"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/text_clr"
+                    android:textSize="@dimen/_12sdp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundColor="@color/white"
+                android:hint="Select Category">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:drawableStart="@drawable/ic_baseline_category_24"
+                    android:drawableEnd="@drawable/ic_drop_down_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="@color/text_green_clr"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/text_clr"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundColor="@color/white"
+                android:hint="Select Location">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawableEnd="@drawable/ic_drop_down_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="@color/text_green_clr"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/text_clr"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundColor="@color/white"
+                android:hint="Select Qualification">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:drawableStart="@drawable/ic_education_24"
+                    android:drawableEnd="@drawable/ic_drop_down_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="@color/text_green_clr"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/text_clr"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundColor="@color/white"
+                android:hint="Select Professional">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:drawableStart="@drawable/ic_professional"
+                    android:drawableEnd="@drawable/ic_drop_down_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="@color/text_green_clr"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/text_clr"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:background="@drawable/rounded_btn"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Clear"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:background="@drawable/rounded_btn"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Search"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

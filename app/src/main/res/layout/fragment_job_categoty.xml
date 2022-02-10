@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.JobCategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/most_pop_rbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@drawable/button_background"
+                android:layout_gravity="center"
+                android:text="Most Popular"/>
+
+            <RadioButton
+                android:id="@+id/all_rbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/button_background"
+                android:layout_gravity="center"
+                android:text="All"/>
+        </RadioGroup>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/most_pop_category_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"
+            android:layout_marginStart="@dimen/_10sdp"/>
+    </LinearLayout>
+</FrameLayout>
